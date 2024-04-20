@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFe Organization - Certifications and Classes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Changed to white for better contrast */
+            color: #333333; /* Changed to dark gray for better contrast */
+        }
+        .header {
+            background-color: #0066cc; /* Changed to a darker blue for better contrast */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            margin: 20px;
+        }
+        .footer {
+            background-color: #333333; /* Changed to dark gray for better contrast */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section {
+            background-color: #f0f0f0; /* Changed to a lighter gray for better contrast */
+            color: #333333; /* Changed to dark gray for better contrast */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+        }
+        .section p {
+            margin-bottom: 10px;
+        }
+        .section a {
+            color: #0066cc; /* Changed to a darker blue for better contrast */
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SAFe Organization</h1>
+        <p>Promoting Agile Excellence</p>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Why Companies Should Use SAFe</h2>
+            <p>SAFe helps organizations scale agile practices across teams and departments, enabling them to deliver value faster and more efficiently. It provides a structured approach to implementing agile at scale, ensuring that agile practices are sustainable and scalable.</p>
+        </div>
+
+        <div class="section">
+            <h2>Certifications and Classes</h2>
+            <p>Explore our range of certifications and classes designed to help you and your team master the principles and practices of SAFe. Whether you're a beginner or looking to advance your skills, we have something for everyone.</p>
+            <a href="https://www.scaledagileframework.com/certifications/" target="_blank">View Certifications</a>
+            <a href="https://www.scaledagileframework.com/training/" target="_blank">View Training Classes</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 SAFe Organization. All rights reserved.</p>
+    </div>
+
+    <script>
+        // Example JavaScript for interactivity
+        document.querySelectorAll('.section a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert('Redirecting to ' + this.href);
+                window.location.href = this.href;
+            });
+        });
+    </script>
+</body>
+</html>
